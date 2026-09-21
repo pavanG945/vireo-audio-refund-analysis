@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Client-confidential data and generated outputs contain customer PII
+# (names, cities, phone numbers typed into free-text fields). Kept local
+# only -- see data/README.md and DECISIONS.md.
+data/*.csv
+data/*.pdf
+output/*.csv
+output/*.md
+output/*.json
+!output/README.md
+validation/*.csv
+!validation/README.md
