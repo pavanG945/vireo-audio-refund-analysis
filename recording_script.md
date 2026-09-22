@@ -48,9 +48,11 @@ columns)*
 **2:10-2:35 -- Show validation and error rate**
 
 "I validated the reclassification against a manually-reviewed sample of
-[N] tickets, stratified across the possible labels. Accuracy came out to
-[X]% -- here's where it gets things wrong: [say the main error type, e.g.
-very short messages defaulting to goodwill]."
+120 tickets, stratified across the possible labels. Accuracy came out to
+77.5% -- here's where it gets things wrong: the LLM over-hedges to
+'ambiguous' more than it should, and the keyword fallback's default
+bucket -- for tickets no rule matches -- is the weakest part, only about
+13% accurate on its own."
 
 *(Show: validation_summary.md)*
 
@@ -68,7 +70,7 @@ burned entirely on its internal reasoning before it could answer."
 
 **2:55-3:00 -- Business outcome**
 
-"Bottom line: refunds are really running about Rs [X] lakh a quarter, not
-a crore, and about Rs [Z] a quarter of that is goodwill over the approval
-cap with no sign-off on record -- that's the number I'd put in front of
-the board."
+"Bottom line: refunds are really running about Rs 11.2 lakh a quarter, not
+a crore, and about Rs 1.56 lakh a quarter of that is goodwill over the
+approval cap with no sign-off on record -- that's the number I'd put in
+front of the board."
